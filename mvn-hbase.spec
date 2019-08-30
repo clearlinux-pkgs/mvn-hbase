@@ -4,7 +4,7 @@
 #
 Name     : mvn-hbase
 Version  : 1.2.6
-Release  : 1
+Release  : 2
 URL      : https://github.com/apache/hbase/archive/rel/1.2.6.tar.gz
 Source0  : https://github.com/apache/hbase/archive/rel/1.2.6.tar.gz
 Source1  : https://repo1.maven.org/maven2/org/apache/hbase/hbase-annotations/1.2.6/hbase-annotations-1.2.6-tests.jar
