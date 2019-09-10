@@ -4,7 +4,7 @@
 #
 Name     : mvn-hbase
 Version  : 1.2.6
-Release  : 4
+Release  : 5
 URL      : https://github.com/apache/hbase/archive/rel/1.2.6.tar.gz
 Source0  : https://github.com/apache/hbase/archive/rel/1.2.6.tar.gz
 Source1  : https://repo1.maven.org/maven2/org/apache/hbase/hbase-annotations/1.2.6/hbase-annotations-1.2.6-tests.jar
@@ -42,9 +42,10 @@ Source32  : https://repo1.maven.org/maven2/org/apache/hbase/hbase-server/1.4.3/h
 Source33  : https://repo1.maven.org/maven2/org/apache/hbase/hbase-testing-util/1.2.6/hbase-testing-util-1.2.6.jar
 Source34  : https://repo1.maven.org/maven2/org/apache/hbase/hbase-testing-util/1.2.6/hbase-testing-util-1.2.6.pom
 Source35  : https://repo1.maven.org/maven2/org/apache/hbase/hbase/1.2.6/hbase-1.2.6.pom
+Source36  : https://repo1.maven.org/maven2/org/apache/hbase/hbase/1.4.3/hbase-1.4.3.pom
 Summary  : No detailed summary available
 Group    : Development/Tools
-License  : Apache-2.0 MIT
+License  : Apache-2.0 CC-BY-3.0 MIT
 Requires: mvn-hbase-data = %{version}-%{release}
 Requires: mvn-hbase-license = %{version}-%{release}
 BuildRequires : apache-maven
@@ -81,8 +82,10 @@ license components for the mvn-hbase package.
 
 %install
 mkdir -p %{buildroot}/usr/share/package-licenses/mvn-hbase
+cp LICENSE.txt %{buildroot}/usr/share/package-licenses/mvn-hbase/LICENSE.txt
 cp hbase-common/src/main/javadoc/META-INF/NOTICE %{buildroot}/usr/share/package-licenses/mvn-hbase/hbase-common_src_main_javadoc_META-INF_NOTICE
 cp hbase-common/src/test/resources/META-INF/NOTICE %{buildroot}/usr/share/package-licenses/mvn-hbase/hbase-common_src_test_resources_META-INF_NOTICE
+cp hbase-resource-bundle/src/main/resources/META-INF/LICENSE.vm %{buildroot}/usr/share/package-licenses/mvn-hbase/hbase-resource-bundle_src_main_resources_META-INF_LICENSE.vm
 cp hbase-server/src/main/javadoc/META-INF/LICENSE %{buildroot}/usr/share/package-licenses/mvn-hbase/hbase-server_src_main_javadoc_META-INF_LICENSE
 cp hbase-server/src/main/javadoc/META-INF/NOTICE %{buildroot}/usr/share/package-licenses/mvn-hbase/hbase-server_src_main_javadoc_META-INF_NOTICE
 cp hbase-server/src/test/resources/META-INF/LICENSE %{buildroot}/usr/share/package-licenses/mvn-hbase/hbase-server_src_test_resources_META-INF_LICENSE
@@ -198,6 +201,9 @@ cp %{SOURCE34} %{buildroot}/usr/share/java/.m2/repository/org/apache/hbase/hbase
 mkdir -p %{buildroot}/usr/share/java/.m2/repository/org/apache/hbase/hbase/1.2.6
 cp %{SOURCE35} %{buildroot}/usr/share/java/.m2/repository/org/apache/hbase/hbase/1.2.6/hbase-1.2.6.pom
 
+mkdir -p %{buildroot}/usr/share/java/.m2/repository/org/apache/hbase/hbase/1.4.3
+cp %{SOURCE36} %{buildroot}/usr/share/java/.m2/repository/org/apache/hbase/hbase/1.4.3/hbase-1.4.3.pom
+
 
 %files
 %defattr(-,root,root,-)
@@ -239,11 +245,14 @@ cp %{SOURCE35} %{buildroot}/usr/share/java/.m2/repository/org/apache/hbase/hbase
 /usr/share/java/.m2/repository/org/apache/hbase/hbase-testing-util/1.2.6/hbase-testing-util-1.2.6.jar
 /usr/share/java/.m2/repository/org/apache/hbase/hbase-testing-util/1.2.6/hbase-testing-util-1.2.6.pom
 /usr/share/java/.m2/repository/org/apache/hbase/hbase/1.2.6/hbase-1.2.6.pom
+/usr/share/java/.m2/repository/org/apache/hbase/hbase/1.4.3/hbase-1.4.3.pom
 
 %files license
 %defattr(0644,root,root,0755)
+/usr/share/package-licenses/mvn-hbase/LICENSE.txt
 /usr/share/package-licenses/mvn-hbase/hbase-common_src_main_javadoc_META-INF_NOTICE
 /usr/share/package-licenses/mvn-hbase/hbase-common_src_test_resources_META-INF_NOTICE
+/usr/share/package-licenses/mvn-hbase/hbase-resource-bundle_src_main_resources_META-INF_LICENSE.vm
 /usr/share/package-licenses/mvn-hbase/hbase-server_src_main_javadoc_META-INF_LICENSE
 /usr/share/package-licenses/mvn-hbase/hbase-server_src_main_javadoc_META-INF_NOTICE
 /usr/share/package-licenses/mvn-hbase/hbase-server_src_test_resources_META-INF_LICENSE
