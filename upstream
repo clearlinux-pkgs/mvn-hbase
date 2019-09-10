@@ -35,3 +35,10 @@ cb3b5229b9c1df0f384cedafae986e9f16bfe64c/hbase-hadoop-compat-1.4.3.pom
 bf9a6046619eb3d4967b187868803155a1f56e74/hbase-server-1.4.3.jar
 0ec0293148112f2514fafd8720fffb865d4f4550/hbase-server-1.4.3.pom
 5cf85be729ec93631bb30f411c77ab411ea26d43/hbase-1.4.3.pom
+7026d528d8c3effea9de211063b41d5884871713/hbase-annotations-1.4.3.pom
+22b2edc73910e3946c9ace9a3969bce09408a5e2/hbase-client-1.4.3.pom
+d29f2682036e320864bd1c324c7db5eaea889494/hbase-common-1.4.3.pom
+6e423d02f93b9230810ceea85c9d5fdb61328b49/hbase-prefix-tree-1.4.3.pom
+9299a939fed76f8eb3dcbcdc22dcdebb8cb5157d/hbase-procedure-1.4.3.pom
+43a96e538812b9b0ccda43fba4ff1da4ddc7972e/hbase-protocol-1.4.3.pom
+0ec0293148112f2514fafd8720fffb865d4f4550/hbase-server-1.4.3.pom
