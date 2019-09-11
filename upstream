@@ -47,3 +47,7 @@ f5b5c14317721b2cab989b72d09b53015344255d/hbase-metrics-1.4.3.jar
 835dbb3746851bc86e68ff578c90a7705f54ed27/hbase-metrics-api-1.4.3.jar
 34d3010a8aef9e0f0eaa135830b53a297594fd0b/hbase-metrics-api-1.4.3.pom
 905076c667e5064fa99889a36964f1990f4fe3bc/hbase-common-1.4.3.jar
+18d00c6e665c95f9f03422c4ac133a90671b1d12/hbase-protocol-1.4.3.jar
+215c4010d1d4a9b16c9da1ae13294fe419d4f997/hbase-prefix-tree-1.4.3.jar
+f5079ee5948631a3c84a20d87bc32db190c8ccf3/hbase-procedure-1.4.3.jar
+aaa222bd8451527b2171fda1d1e8ea852cfb43d5/hbase-common-1.4.3-tests.jar
