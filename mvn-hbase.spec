@@ -4,7 +4,7 @@
 #
 Name     : mvn-hbase
 Version  : 1.2.6
-Release  : 7
+Release  : 8
 URL      : https://github.com/apache/hbase/archive/rel/1.2.6.tar.gz
 Source0  : https://github.com/apache/hbase/archive/rel/1.2.6.tar.gz
 Source1  : https://repo.maven.apache.org/maven2/org/apache/hbase/hbase-metrics-api/1.4.3/hbase-metrics-api-1.4.3.jar
@@ -21,39 +21,40 @@ Source11  : https://repo1.maven.org/maven2/org/apache/hbase/hbase-client/1.4.3/h
 Source12  : https://repo1.maven.org/maven2/org/apache/hbase/hbase-common/1.2.6/hbase-common-1.2.6-tests.jar
 Source13  : https://repo1.maven.org/maven2/org/apache/hbase/hbase-common/1.2.6/hbase-common-1.2.6.jar
 Source14  : https://repo1.maven.org/maven2/org/apache/hbase/hbase-common/1.2.6/hbase-common-1.2.6.pom
-Source15  : https://repo1.maven.org/maven2/org/apache/hbase/hbase-common/1.4.3/hbase-common-1.4.3.pom
-Source16  : https://repo1.maven.org/maven2/org/apache/hbase/hbase-hadoop-compat/1.2.6/hbase-hadoop-compat-1.2.6-tests.jar
-Source17  : https://repo1.maven.org/maven2/org/apache/hbase/hbase-hadoop-compat/1.2.6/hbase-hadoop-compat-1.2.6.jar
-Source18  : https://repo1.maven.org/maven2/org/apache/hbase/hbase-hadoop-compat/1.2.6/hbase-hadoop-compat-1.2.6.pom
-Source19  : https://repo1.maven.org/maven2/org/apache/hbase/hbase-hadoop-compat/1.4.3/hbase-hadoop-compat-1.4.3-tests.jar
-Source20  : https://repo1.maven.org/maven2/org/apache/hbase/hbase-hadoop-compat/1.4.3/hbase-hadoop-compat-1.4.3.jar
-Source21  : https://repo1.maven.org/maven2/org/apache/hbase/hbase-hadoop-compat/1.4.3/hbase-hadoop-compat-1.4.3.pom
-Source22  : https://repo1.maven.org/maven2/org/apache/hbase/hbase-hadoop2-compat/1.2.6/hbase-hadoop2-compat-1.2.6-tests.jar
-Source23  : https://repo1.maven.org/maven2/org/apache/hbase/hbase-hadoop2-compat/1.2.6/hbase-hadoop2-compat-1.2.6.jar
-Source24  : https://repo1.maven.org/maven2/org/apache/hbase/hbase-hadoop2-compat/1.2.6/hbase-hadoop2-compat-1.2.6.pom
-Source25  : https://repo1.maven.org/maven2/org/apache/hbase/hbase-hadoop2-compat/1.4.3/hbase-hadoop2-compat-1.4.3-tests.jar
-Source26  : https://repo1.maven.org/maven2/org/apache/hbase/hbase-hadoop2-compat/1.4.3/hbase-hadoop2-compat-1.4.3.jar
-Source27  : https://repo1.maven.org/maven2/org/apache/hbase/hbase-hadoop2-compat/1.4.3/hbase-hadoop2-compat-1.4.3.pom
-Source28  : https://repo1.maven.org/maven2/org/apache/hbase/hbase-prefix-tree/1.2.6/hbase-prefix-tree-1.2.6.jar
-Source29  : https://repo1.maven.org/maven2/org/apache/hbase/hbase-prefix-tree/1.2.6/hbase-prefix-tree-1.2.6.pom
-Source30  : https://repo1.maven.org/maven2/org/apache/hbase/hbase-prefix-tree/1.4.3/hbase-prefix-tree-1.4.3.pom
-Source31  : https://repo1.maven.org/maven2/org/apache/hbase/hbase-procedure/1.2.6/hbase-procedure-1.2.6.jar
-Source32  : https://repo1.maven.org/maven2/org/apache/hbase/hbase-procedure/1.2.6/hbase-procedure-1.2.6.pom
-Source33  : https://repo1.maven.org/maven2/org/apache/hbase/hbase-procedure/1.4.3/hbase-procedure-1.4.3.pom
-Source34  : https://repo1.maven.org/maven2/org/apache/hbase/hbase-protocol/1.2.6/hbase-protocol-1.2.6.jar
-Source35  : https://repo1.maven.org/maven2/org/apache/hbase/hbase-protocol/1.2.6/hbase-protocol-1.2.6.pom
-Source36  : https://repo1.maven.org/maven2/org/apache/hbase/hbase-protocol/1.4.3/hbase-protocol-1.4.3.pom
-Source37  : https://repo1.maven.org/maven2/org/apache/hbase/hbase-server/1.2.6/hbase-server-1.2.6-tests.jar
-Source38  : https://repo1.maven.org/maven2/org/apache/hbase/hbase-server/1.2.6/hbase-server-1.2.6.jar
-Source39  : https://repo1.maven.org/maven2/org/apache/hbase/hbase-server/1.2.6/hbase-server-1.2.6.pom
-Source40  : https://repo1.maven.org/maven2/org/apache/hbase/hbase-server/1.4.3/hbase-server-1.4.3-tests.jar
-Source41  : https://repo1.maven.org/maven2/org/apache/hbase/hbase-server/1.4.3/hbase-server-1.4.3.jar
-Source42  : https://repo1.maven.org/maven2/org/apache/hbase/hbase-server/1.4.3/hbase-server-1.4.3.pom
+Source15  : https://repo1.maven.org/maven2/org/apache/hbase/hbase-common/1.4.3/hbase-common-1.4.3.jar
+Source16  : https://repo1.maven.org/maven2/org/apache/hbase/hbase-common/1.4.3/hbase-common-1.4.3.pom
+Source17  : https://repo1.maven.org/maven2/org/apache/hbase/hbase-hadoop-compat/1.2.6/hbase-hadoop-compat-1.2.6-tests.jar
+Source18  : https://repo1.maven.org/maven2/org/apache/hbase/hbase-hadoop-compat/1.2.6/hbase-hadoop-compat-1.2.6.jar
+Source19  : https://repo1.maven.org/maven2/org/apache/hbase/hbase-hadoop-compat/1.2.6/hbase-hadoop-compat-1.2.6.pom
+Source20  : https://repo1.maven.org/maven2/org/apache/hbase/hbase-hadoop-compat/1.4.3/hbase-hadoop-compat-1.4.3-tests.jar
+Source21  : https://repo1.maven.org/maven2/org/apache/hbase/hbase-hadoop-compat/1.4.3/hbase-hadoop-compat-1.4.3.jar
+Source22  : https://repo1.maven.org/maven2/org/apache/hbase/hbase-hadoop-compat/1.4.3/hbase-hadoop-compat-1.4.3.pom
+Source23  : https://repo1.maven.org/maven2/org/apache/hbase/hbase-hadoop2-compat/1.2.6/hbase-hadoop2-compat-1.2.6-tests.jar
+Source24  : https://repo1.maven.org/maven2/org/apache/hbase/hbase-hadoop2-compat/1.2.6/hbase-hadoop2-compat-1.2.6.jar
+Source25  : https://repo1.maven.org/maven2/org/apache/hbase/hbase-hadoop2-compat/1.2.6/hbase-hadoop2-compat-1.2.6.pom
+Source26  : https://repo1.maven.org/maven2/org/apache/hbase/hbase-hadoop2-compat/1.4.3/hbase-hadoop2-compat-1.4.3-tests.jar
+Source27  : https://repo1.maven.org/maven2/org/apache/hbase/hbase-hadoop2-compat/1.4.3/hbase-hadoop2-compat-1.4.3.jar
+Source28  : https://repo1.maven.org/maven2/org/apache/hbase/hbase-hadoop2-compat/1.4.3/hbase-hadoop2-compat-1.4.3.pom
+Source29  : https://repo1.maven.org/maven2/org/apache/hbase/hbase-prefix-tree/1.2.6/hbase-prefix-tree-1.2.6.jar
+Source30  : https://repo1.maven.org/maven2/org/apache/hbase/hbase-prefix-tree/1.2.6/hbase-prefix-tree-1.2.6.pom
+Source31  : https://repo1.maven.org/maven2/org/apache/hbase/hbase-prefix-tree/1.4.3/hbase-prefix-tree-1.4.3.pom
+Source32  : https://repo1.maven.org/maven2/org/apache/hbase/hbase-procedure/1.2.6/hbase-procedure-1.2.6.jar
+Source33  : https://repo1.maven.org/maven2/org/apache/hbase/hbase-procedure/1.2.6/hbase-procedure-1.2.6.pom
+Source34  : https://repo1.maven.org/maven2/org/apache/hbase/hbase-procedure/1.4.3/hbase-procedure-1.4.3.pom
+Source35  : https://repo1.maven.org/maven2/org/apache/hbase/hbase-protocol/1.2.6/hbase-protocol-1.2.6.jar
+Source36  : https://repo1.maven.org/maven2/org/apache/hbase/hbase-protocol/1.2.6/hbase-protocol-1.2.6.pom
+Source37  : https://repo1.maven.org/maven2/org/apache/hbase/hbase-protocol/1.4.3/hbase-protocol-1.4.3.pom
+Source38  : https://repo1.maven.org/maven2/org/apache/hbase/hbase-server/1.2.6/hbase-server-1.2.6-tests.jar
+Source39  : https://repo1.maven.org/maven2/org/apache/hbase/hbase-server/1.2.6/hbase-server-1.2.6.jar
+Source40  : https://repo1.maven.org/maven2/org/apache/hbase/hbase-server/1.2.6/hbase-server-1.2.6.pom
+Source41  : https://repo1.maven.org/maven2/org/apache/hbase/hbase-server/1.4.3/hbase-server-1.4.3-tests.jar
+Source42  : https://repo1.maven.org/maven2/org/apache/hbase/hbase-server/1.4.3/hbase-server-1.4.3.jar
 Source43  : https://repo1.maven.org/maven2/org/apache/hbase/hbase-server/1.4.3/hbase-server-1.4.3.pom
-Source44  : https://repo1.maven.org/maven2/org/apache/hbase/hbase-testing-util/1.2.6/hbase-testing-util-1.2.6.jar
-Source45  : https://repo1.maven.org/maven2/org/apache/hbase/hbase-testing-util/1.2.6/hbase-testing-util-1.2.6.pom
-Source46  : https://repo1.maven.org/maven2/org/apache/hbase/hbase/1.2.6/hbase-1.2.6.pom
-Source47  : https://repo1.maven.org/maven2/org/apache/hbase/hbase/1.4.3/hbase-1.4.3.pom
+Source44  : https://repo1.maven.org/maven2/org/apache/hbase/hbase-server/1.4.3/hbase-server-1.4.3.pom
+Source45  : https://repo1.maven.org/maven2/org/apache/hbase/hbase-testing-util/1.2.6/hbase-testing-util-1.2.6.jar
+Source46  : https://repo1.maven.org/maven2/org/apache/hbase/hbase-testing-util/1.2.6/hbase-testing-util-1.2.6.pom
+Source47  : https://repo1.maven.org/maven2/org/apache/hbase/hbase/1.2.6/hbase-1.2.6.pom
+Source48  : https://repo1.maven.org/maven2/org/apache/hbase/hbase/1.4.3/hbase-1.4.3.pom
 Summary  : No detailed summary available
 Group    : Development/Tools
 License  : Apache-2.0 CC-BY-3.0 MIT
@@ -150,103 +151,106 @@ mkdir -p %{buildroot}/usr/share/java/.m2/repository/org/apache/hbase/hbase-commo
 cp %{SOURCE14} %{buildroot}/usr/share/java/.m2/repository/org/apache/hbase/hbase-common/1.2.6/hbase-common-1.2.6.pom
 
 mkdir -p %{buildroot}/usr/share/java/.m2/repository/org/apache/hbase/hbase-common/1.4.3
-cp %{SOURCE15} %{buildroot}/usr/share/java/.m2/repository/org/apache/hbase/hbase-common/1.4.3/hbase-common-1.4.3.pom
+cp %{SOURCE15} %{buildroot}/usr/share/java/.m2/repository/org/apache/hbase/hbase-common/1.4.3/hbase-common-1.4.3.jar
+
+mkdir -p %{buildroot}/usr/share/java/.m2/repository/org/apache/hbase/hbase-common/1.4.3
+cp %{SOURCE16} %{buildroot}/usr/share/java/.m2/repository/org/apache/hbase/hbase-common/1.4.3/hbase-common-1.4.3.pom
 
 mkdir -p %{buildroot}/usr/share/java/.m2/repository/org/apache/hbase/hbase-hadoop-compat/1.2.6
-cp %{SOURCE16} %{buildroot}/usr/share/java/.m2/repository/org/apache/hbase/hbase-hadoop-compat/1.2.6/hbase-hadoop-compat-1.2.6-tests.jar
+cp %{SOURCE17} %{buildroot}/usr/share/java/.m2/repository/org/apache/hbase/hbase-hadoop-compat/1.2.6/hbase-hadoop-compat-1.2.6-tests.jar
 
 mkdir -p %{buildroot}/usr/share/java/.m2/repository/org/apache/hbase/hbase-hadoop-compat/1.2.6
-cp %{SOURCE17} %{buildroot}/usr/share/java/.m2/repository/org/apache/hbase/hbase-hadoop-compat/1.2.6/hbase-hadoop-compat-1.2.6.jar
+cp %{SOURCE18} %{buildroot}/usr/share/java/.m2/repository/org/apache/hbase/hbase-hadoop-compat/1.2.6/hbase-hadoop-compat-1.2.6.jar
 
 mkdir -p %{buildroot}/usr/share/java/.m2/repository/org/apache/hbase/hbase-hadoop-compat/1.2.6
-cp %{SOURCE18} %{buildroot}/usr/share/java/.m2/repository/org/apache/hbase/hbase-hadoop-compat/1.2.6/hbase-hadoop-compat-1.2.6.pom
+cp %{SOURCE19} %{buildroot}/usr/share/java/.m2/repository/org/apache/hbase/hbase-hadoop-compat/1.2.6/hbase-hadoop-compat-1.2.6.pom
 
 mkdir -p %{buildroot}/usr/share/java/.m2/repository/org/apache/hbase/hbase-hadoop-compat/1.4.3
-cp %{SOURCE19} %{buildroot}/usr/share/java/.m2/repository/org/apache/hbase/hbase-hadoop-compat/1.4.3/hbase-hadoop-compat-1.4.3-tests.jar
+cp %{SOURCE20} %{buildroot}/usr/share/java/.m2/repository/org/apache/hbase/hbase-hadoop-compat/1.4.3/hbase-hadoop-compat-1.4.3-tests.jar
 
 mkdir -p %{buildroot}/usr/share/java/.m2/repository/org/apache/hbase/hbase-hadoop-compat/1.4.3
-cp %{SOURCE20} %{buildroot}/usr/share/java/.m2/repository/org/apache/hbase/hbase-hadoop-compat/1.4.3/hbase-hadoop-compat-1.4.3.jar
+cp %{SOURCE21} %{buildroot}/usr/share/java/.m2/repository/org/apache/hbase/hbase-hadoop-compat/1.4.3/hbase-hadoop-compat-1.4.3.jar
 
 mkdir -p %{buildroot}/usr/share/java/.m2/repository/org/apache/hbase/hbase-hadoop-compat/1.4.3
-cp %{SOURCE21} %{buildroot}/usr/share/java/.m2/repository/org/apache/hbase/hbase-hadoop-compat/1.4.3/hbase-hadoop-compat-1.4.3.pom
+cp %{SOURCE22} %{buildroot}/usr/share/java/.m2/repository/org/apache/hbase/hbase-hadoop-compat/1.4.3/hbase-hadoop-compat-1.4.3.pom
 
 mkdir -p %{buildroot}/usr/share/java/.m2/repository/org/apache/hbase/hbase-hadoop2-compat/1.2.6
-cp %{SOURCE22} %{buildroot}/usr/share/java/.m2/repository/org/apache/hbase/hbase-hadoop2-compat/1.2.6/hbase-hadoop2-compat-1.2.6-tests.jar
+cp %{SOURCE23} %{buildroot}/usr/share/java/.m2/repository/org/apache/hbase/hbase-hadoop2-compat/1.2.6/hbase-hadoop2-compat-1.2.6-tests.jar
 
 mkdir -p %{buildroot}/usr/share/java/.m2/repository/org/apache/hbase/hbase-hadoop2-compat/1.2.6
-cp %{SOURCE23} %{buildroot}/usr/share/java/.m2/repository/org/apache/hbase/hbase-hadoop2-compat/1.2.6/hbase-hadoop2-compat-1.2.6.jar
+cp %{SOURCE24} %{buildroot}/usr/share/java/.m2/repository/org/apache/hbase/hbase-hadoop2-compat/1.2.6/hbase-hadoop2-compat-1.2.6.jar
 
 mkdir -p %{buildroot}/usr/share/java/.m2/repository/org/apache/hbase/hbase-hadoop2-compat/1.2.6
-cp %{SOURCE24} %{buildroot}/usr/share/java/.m2/repository/org/apache/hbase/hbase-hadoop2-compat/1.2.6/hbase-hadoop2-compat-1.2.6.pom
+cp %{SOURCE25} %{buildroot}/usr/share/java/.m2/repository/org/apache/hbase/hbase-hadoop2-compat/1.2.6/hbase-hadoop2-compat-1.2.6.pom
 
 mkdir -p %{buildroot}/usr/share/java/.m2/repository/org/apache/hbase/hbase-hadoop2-compat/1.4.3
-cp %{SOURCE25} %{buildroot}/usr/share/java/.m2/repository/org/apache/hbase/hbase-hadoop2-compat/1.4.3/hbase-hadoop2-compat-1.4.3-tests.jar
+cp %{SOURCE26} %{buildroot}/usr/share/java/.m2/repository/org/apache/hbase/hbase-hadoop2-compat/1.4.3/hbase-hadoop2-compat-1.4.3-tests.jar
 
 mkdir -p %{buildroot}/usr/share/java/.m2/repository/org/apache/hbase/hbase-hadoop2-compat/1.4.3
-cp %{SOURCE26} %{buildroot}/usr/share/java/.m2/repository/org/apache/hbase/hbase-hadoop2-compat/1.4.3/hbase-hadoop2-compat-1.4.3.jar
+cp %{SOURCE27} %{buildroot}/usr/share/java/.m2/repository/org/apache/hbase/hbase-hadoop2-compat/1.4.3/hbase-hadoop2-compat-1.4.3.jar
 
 mkdir -p %{buildroot}/usr/share/java/.m2/repository/org/apache/hbase/hbase-hadoop2-compat/1.4.3
-cp %{SOURCE27} %{buildroot}/usr/share/java/.m2/repository/org/apache/hbase/hbase-hadoop2-compat/1.4.3/hbase-hadoop2-compat-1.4.3.pom
+cp %{SOURCE28} %{buildroot}/usr/share/java/.m2/repository/org/apache/hbase/hbase-hadoop2-compat/1.4.3/hbase-hadoop2-compat-1.4.3.pom
 
 mkdir -p %{buildroot}/usr/share/java/.m2/repository/org/apache/hbase/hbase-prefix-tree/1.2.6
-cp %{SOURCE28} %{buildroot}/usr/share/java/.m2/repository/org/apache/hbase/hbase-prefix-tree/1.2.6/hbase-prefix-tree-1.2.6.jar
+cp %{SOURCE29} %{buildroot}/usr/share/java/.m2/repository/org/apache/hbase/hbase-prefix-tree/1.2.6/hbase-prefix-tree-1.2.6.jar
 
 mkdir -p %{buildroot}/usr/share/java/.m2/repository/org/apache/hbase/hbase-prefix-tree/1.2.6
-cp %{SOURCE29} %{buildroot}/usr/share/java/.m2/repository/org/apache/hbase/hbase-prefix-tree/1.2.6/hbase-prefix-tree-1.2.6.pom
+cp %{SOURCE30} %{buildroot}/usr/share/java/.m2/repository/org/apache/hbase/hbase-prefix-tree/1.2.6/hbase-prefix-tree-1.2.6.pom
 
 mkdir -p %{buildroot}/usr/share/java/.m2/repository/org/apache/hbase/hbase-prefix-tree/1.4.3
-cp %{SOURCE30} %{buildroot}/usr/share/java/.m2/repository/org/apache/hbase/hbase-prefix-tree/1.4.3/hbase-prefix-tree-1.4.3.pom
+cp %{SOURCE31} %{buildroot}/usr/share/java/.m2/repository/org/apache/hbase/hbase-prefix-tree/1.4.3/hbase-prefix-tree-1.4.3.pom
 
 mkdir -p %{buildroot}/usr/share/java/.m2/repository/org/apache/hbase/hbase-procedure/1.2.6
-cp %{SOURCE31} %{buildroot}/usr/share/java/.m2/repository/org/apache/hbase/hbase-procedure/1.2.6/hbase-procedure-1.2.6.jar
+cp %{SOURCE32} %{buildroot}/usr/share/java/.m2/repository/org/apache/hbase/hbase-procedure/1.2.6/hbase-procedure-1.2.6.jar
 
 mkdir -p %{buildroot}/usr/share/java/.m2/repository/org/apache/hbase/hbase-procedure/1.2.6
-cp %{SOURCE32} %{buildroot}/usr/share/java/.m2/repository/org/apache/hbase/hbase-procedure/1.2.6/hbase-procedure-1.2.6.pom
+cp %{SOURCE33} %{buildroot}/usr/share/java/.m2/repository/org/apache/hbase/hbase-procedure/1.2.6/hbase-procedure-1.2.6.pom
 
 mkdir -p %{buildroot}/usr/share/java/.m2/repository/org/apache/hbase/hbase-procedure/1.4.3
-cp %{SOURCE33} %{buildroot}/usr/share/java/.m2/repository/org/apache/hbase/hbase-procedure/1.4.3/hbase-procedure-1.4.3.pom
+cp %{SOURCE34} %{buildroot}/usr/share/java/.m2/repository/org/apache/hbase/hbase-procedure/1.4.3/hbase-procedure-1.4.3.pom
 
 mkdir -p %{buildroot}/usr/share/java/.m2/repository/org/apache/hbase/hbase-protocol/1.2.6
-cp %{SOURCE34} %{buildroot}/usr/share/java/.m2/repository/org/apache/hbase/hbase-protocol/1.2.6/hbase-protocol-1.2.6.jar
+cp %{SOURCE35} %{buildroot}/usr/share/java/.m2/repository/org/apache/hbase/hbase-protocol/1.2.6/hbase-protocol-1.2.6.jar
 
 mkdir -p %{buildroot}/usr/share/java/.m2/repository/org/apache/hbase/hbase-protocol/1.2.6
-cp %{SOURCE35} %{buildroot}/usr/share/java/.m2/repository/org/apache/hbase/hbase-protocol/1.2.6/hbase-protocol-1.2.6.pom
+cp %{SOURCE36} %{buildroot}/usr/share/java/.m2/repository/org/apache/hbase/hbase-protocol/1.2.6/hbase-protocol-1.2.6.pom
 
 mkdir -p %{buildroot}/usr/share/java/.m2/repository/org/apache/hbase/hbase-protocol/1.4.3
-cp %{SOURCE36} %{buildroot}/usr/share/java/.m2/repository/org/apache/hbase/hbase-protocol/1.4.3/hbase-protocol-1.4.3.pom
+cp %{SOURCE37} %{buildroot}/usr/share/java/.m2/repository/org/apache/hbase/hbase-protocol/1.4.3/hbase-protocol-1.4.3.pom
 
 mkdir -p %{buildroot}/usr/share/java/.m2/repository/org/apache/hbase/hbase-server/1.2.6
-cp %{SOURCE37} %{buildroot}/usr/share/java/.m2/repository/org/apache/hbase/hbase-server/1.2.6/hbase-server-1.2.6-tests.jar
+cp %{SOURCE38} %{buildroot}/usr/share/java/.m2/repository/org/apache/hbase/hbase-server/1.2.6/hbase-server-1.2.6-tests.jar
 
 mkdir -p %{buildroot}/usr/share/java/.m2/repository/org/apache/hbase/hbase-server/1.2.6
-cp %{SOURCE38} %{buildroot}/usr/share/java/.m2/repository/org/apache/hbase/hbase-server/1.2.6/hbase-server-1.2.6.jar
+cp %{SOURCE39} %{buildroot}/usr/share/java/.m2/repository/org/apache/hbase/hbase-server/1.2.6/hbase-server-1.2.6.jar
 
 mkdir -p %{buildroot}/usr/share/java/.m2/repository/org/apache/hbase/hbase-server/1.2.6
-cp %{SOURCE39} %{buildroot}/usr/share/java/.m2/repository/org/apache/hbase/hbase-server/1.2.6/hbase-server-1.2.6.pom
+cp %{SOURCE40} %{buildroot}/usr/share/java/.m2/repository/org/apache/hbase/hbase-server/1.2.6/hbase-server-1.2.6.pom
 
 mkdir -p %{buildroot}/usr/share/java/.m2/repository/org/apache/hbase/hbase-server/1.4.3
-cp %{SOURCE40} %{buildroot}/usr/share/java/.m2/repository/org/apache/hbase/hbase-server/1.4.3/hbase-server-1.4.3-tests.jar
+cp %{SOURCE41} %{buildroot}/usr/share/java/.m2/repository/org/apache/hbase/hbase-server/1.4.3/hbase-server-1.4.3-tests.jar
 
 mkdir -p %{buildroot}/usr/share/java/.m2/repository/org/apache/hbase/hbase-server/1.4.3
-cp %{SOURCE41} %{buildroot}/usr/share/java/.m2/repository/org/apache/hbase/hbase-server/1.4.3/hbase-server-1.4.3.jar
-
-mkdir -p %{buildroot}/usr/share/java/.m2/repository/org/apache/hbase/hbase-server/1.4.3
-cp %{SOURCE42} %{buildroot}/usr/share/java/.m2/repository/org/apache/hbase/hbase-server/1.4.3/hbase-server-1.4.3.pom
+cp %{SOURCE42} %{buildroot}/usr/share/java/.m2/repository/org/apache/hbase/hbase-server/1.4.3/hbase-server-1.4.3.jar
 
 mkdir -p %{buildroot}/usr/share/java/.m2/repository/org/apache/hbase/hbase-server/1.4.3
 cp %{SOURCE43} %{buildroot}/usr/share/java/.m2/repository/org/apache/hbase/hbase-server/1.4.3/hbase-server-1.4.3.pom
 
-mkdir -p %{buildroot}/usr/share/java/.m2/repository/org/apache/hbase/hbase-testing-util/1.2.6
-cp %{SOURCE44} %{buildroot}/usr/share/java/.m2/repository/org/apache/hbase/hbase-testing-util/1.2.6/hbase-testing-util-1.2.6.jar
+mkdir -p %{buildroot}/usr/share/java/.m2/repository/org/apache/hbase/hbase-server/1.4.3
+cp %{SOURCE44} %{buildroot}/usr/share/java/.m2/repository/org/apache/hbase/hbase-server/1.4.3/hbase-server-1.4.3.pom
 
 mkdir -p %{buildroot}/usr/share/java/.m2/repository/org/apache/hbase/hbase-testing-util/1.2.6
-cp %{SOURCE45} %{buildroot}/usr/share/java/.m2/repository/org/apache/hbase/hbase-testing-util/1.2.6/hbase-testing-util-1.2.6.pom
+cp %{SOURCE45} %{buildroot}/usr/share/java/.m2/repository/org/apache/hbase/hbase-testing-util/1.2.6/hbase-testing-util-1.2.6.jar
+
+mkdir -p %{buildroot}/usr/share/java/.m2/repository/org/apache/hbase/hbase-testing-util/1.2.6
+cp %{SOURCE46} %{buildroot}/usr/share/java/.m2/repository/org/apache/hbase/hbase-testing-util/1.2.6/hbase-testing-util-1.2.6.pom
 
 mkdir -p %{buildroot}/usr/share/java/.m2/repository/org/apache/hbase/hbase/1.2.6
-cp %{SOURCE46} %{buildroot}/usr/share/java/.m2/repository/org/apache/hbase/hbase/1.2.6/hbase-1.2.6.pom
+cp %{SOURCE47} %{buildroot}/usr/share/java/.m2/repository/org/apache/hbase/hbase/1.2.6/hbase-1.2.6.pom
 
 mkdir -p %{buildroot}/usr/share/java/.m2/repository/org/apache/hbase/hbase/1.4.3
-cp %{SOURCE47} %{buildroot}/usr/share/java/.m2/repository/org/apache/hbase/hbase/1.4.3/hbase-1.4.3.pom
+cp %{SOURCE48} %{buildroot}/usr/share/java/.m2/repository/org/apache/hbase/hbase/1.4.3/hbase-1.4.3.pom
 
 
 %files
@@ -264,6 +268,7 @@ cp %{SOURCE47} %{buildroot}/usr/share/java/.m2/repository/org/apache/hbase/hbase
 /usr/share/java/.m2/repository/org/apache/hbase/hbase-common/1.2.6/hbase-common-1.2.6-tests.jar
 /usr/share/java/.m2/repository/org/apache/hbase/hbase-common/1.2.6/hbase-common-1.2.6.jar
 /usr/share/java/.m2/repository/org/apache/hbase/hbase-common/1.2.6/hbase-common-1.2.6.pom
+/usr/share/java/.m2/repository/org/apache/hbase/hbase-common/1.4.3/hbase-common-1.4.3.jar
 /usr/share/java/.m2/repository/org/apache/hbase/hbase-common/1.4.3/hbase-common-1.4.3.pom
 /usr/share/java/.m2/repository/org/apache/hbase/hbase-hadoop-compat/1.2.6/hbase-hadoop-compat-1.2.6-tests.jar
 /usr/share/java/.m2/repository/org/apache/hbase/hbase-hadoop-compat/1.2.6/hbase-hadoop-compat-1.2.6.jar
