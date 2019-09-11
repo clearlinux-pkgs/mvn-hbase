@@ -41,7 +41,6 @@ d29f2682036e320864bd1c324c7db5eaea889494/hbase-common-1.4.3.pom
 6e423d02f93b9230810ceea85c9d5fdb61328b49/hbase-prefix-tree-1.4.3.pom
 9299a939fed76f8eb3dcbcdc22dcdebb8cb5157d/hbase-procedure-1.4.3.pom
 43a96e538812b9b0ccda43fba4ff1da4ddc7972e/hbase-protocol-1.4.3.pom
-0ec0293148112f2514fafd8720fffb865d4f4550/hbase-server-1.4.3.pom
 f5b5c14317721b2cab989b72d09b53015344255d/hbase-metrics-1.4.3.jar
 6db04585ff5ebf099af0e7c0a0cfb779792fbd94/hbase-metrics-1.4.3.pom
 835dbb3746851bc86e68ff578c90a7705f54ed27/hbase-metrics-api-1.4.3.jar
@@ -51,3 +50,5 @@ f5b5c14317721b2cab989b72d09b53015344255d/hbase-metrics-1.4.3.jar
 215c4010d1d4a9b16c9da1ae13294fe419d4f997/hbase-prefix-tree-1.4.3.jar
 f5079ee5948631a3c84a20d87bc32db190c8ccf3/hbase-procedure-1.4.3.jar
 aaa222bd8451527b2171fda1d1e8ea852cfb43d5/hbase-common-1.4.3-tests.jar
+e1a2014c773857f78d8477d185068237950f9b5b/hbase-client-1.4.3.jar
+472f69a9d2127d84baec615cc79f07c02beda2d1/hbase-annotations-1.4.3.jar
